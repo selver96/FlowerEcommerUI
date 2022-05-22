@@ -1,0 +1,40 @@
+.location {
+    width: 1500px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.location__icon {
+    height: 50px;
+    margin-left: 250px;
+    padding-left: 70px;
+    border-left: 1px solid #ad057f;
+}
+
+
+.location__icon>ul {
+    display: flex;
+}
+
+.location__icon>ul>li {
+    display: flex;
+    margin-left: 10px;
+}
+
+.location__icon>ul>li>p {
+    width: 100px;
+    margin-top: 4px;
+    margin-left: 5px;
+    color: #ad057f;
+}
+
+.location__icon svg {
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    color: #ad057f;
+}

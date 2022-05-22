@@ -1,0 +1,249 @@
+.label{
+    cursor: pointer;
+}
+
+.registration{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 200px;
+    
+}
+
+.reg__title h1{
+    font-size: 40px;
+    text-align: center;
+    color: #750556;
+}
+
+.reg__content{
+    display: flex;
+    
+}
+
+.reg__content__left{
+    width: 100%;
+}
+
+.reg__content__right{
+    width: 100%;
+    margin-top: 15px;
+}
+
+.reg__content__right h1{
+    font-size: 25px;
+    color: #750556;
+    text-align: left;
+}
+
+.reg__form{
+    display: grid;
+    margin-top: 10px;
+}
+
+
+.reg__form__item{
+    width: 650px;
+    height: 60px;
+}
+
+.reg__form__item input{
+    width: 645px;
+    height: 55px;
+    font-size: 20px;
+}
+
+.reg__form__item svg{
+    width: 30px;
+    height: 30px;
+    margin-top: 12px;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+
+
+#submit{
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 500px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #09ac44;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-color: #09be4b;
+}
+
+
+
+.reg__form__item__checkbox{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.reg__form__item__checkbox label{
+    margin-left: 5px;
+    margin-top: -5px;
+    color: #750556;
+}
+
+.reg__right__content{
+    display: flex;
+}
+
+
+.reg__right__content__list h2{
+    font-size: 15px;
+    color: #750556;
+}
+
+.reg__right__content__img >  img{
+    width: 400px;
+    height: 270px;
+    margin-left: 100px;
+}
+
+
+.reg__right__content__list > ul > li {
+    display: flex;
+    margin-left: 0px;
+    margin-top: 5px;
+}
+
+.reg__right__content__list svg {
+    width: 35px;
+    height: 35px;
+    color: #f812bb;
+}
+
+.reg__right__content__list p {
+    font-size: 18px;
+    color: #750556;
+    margin-left: 5px;
+    margin-top: 8px;
+}
+
+@media (max-width: 1500px){
+    .reg__content{
+        display: grid;
+        margin-bottom: 50px;
+    }
+    .reg__right__content__img >  img{
+        width: 350px;
+        height: 220px;
+        margin-left: 100px;
+    }
+}
+
+
+@media (max-width: 800px){
+    .reg__content{
+        display: grid;
+        margin-bottom: 50px;
+    }
+    .reg__form__item{
+        width: 500px;
+    }
+    #submit{
+        margin-left: 350px;
+    }
+    .reg__right__content__img >  img{
+        width: 240px;
+        height: 150px;
+        margin-left: 100px;
+    }
+    .reg__right__content__list svg {
+        width: 30px;
+        height: 30px;
+    }
+    .reg__right__content__list > ul > li {
+        margin-top: 0px;
+    }
+    .reg__right__content__list p {
+        font-size: 15px;
+    }
+    .reg__title h1{
+        font-size: 30px;
+    }
+    .reg__content__right h1{
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 500px){
+    .reg__content{
+        display: grid;
+        margin-bottom: 50px;
+    }
+    .reg__form__item{
+        width: 400px;
+        height: 40px;
+    }
+    #submit{
+        margin-left: 250px;
+    }
+    .reg__right__content__img >  img{
+        width: 240px;
+        height: 150px;
+        margin-left: 100px;
+    }
+    .reg__right__content__list svg {
+        width: 30px;
+        height: 30px;
+    }
+    .reg__right__content__list > ul > li {
+        margin-top: 0px;
+    }
+    .reg__right__content__list p {
+        font-size: 15px;
+    }
+    .reg__title h1{
+        font-size: 25px;
+        text-align: center;
+    }
+    .reg__content__right h1{
+        font-size: 15px;
+    }
+    .reg__right__content{
+        display: grid;
+        padding-bottom: 500px;
+    }
+    .reg__form__item__checkbox label{
+        width: 400px;
+    }
+    .reg__form__item svg{
+        width: 20px;
+        height: 20px;
+        margin-top: 10px;
+        margin-right: 5px;
+        margin-left: 10px;
+    }
+    
+    .reg__form__item input{
+        width: 400px;
+        height: 30px;
+        font-size: 10px;
+        margin-top: 5px;
+    }
+    
+    #submit{
+        width: 140px;
+        height: 40px;
+        margin-top: 5px;
+        margin-left: 250px;
+        margin-bottom: 5px;
+        border: none;
+        border-radius: 5px;
+        background-color: #09ac44;
+        color: white;
+        font-size: 15px;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,49 @@
+.input__custom{
+    display: flex;
+    border-radius: 5px;
+    padding-left: 5px;
+    border: 1px solid #f8bfe9;
+}
+
+.input__custom svg {
+    color: #f8bfe9;
+}
+
+.input__custom:focus-within{
+    border-color: #bd2594;
+}
+
+.input__custom:focus-within svg{
+    color: #bd2594;
+}
+
+.input__custom input{
+    color: #f8bfe9;
+    border: none;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.input__custom input::placeholder{
+    color: #f8bfe9;
+    font-family: 'Cuprum', sans-serif;
+}
+
+.input__custom input:focus{
+    outline: none;
+    border-color: #e305a8;
+}
+
+.error_input{
+    padding-top: 5px;
+    font-size: 16px;
+    color: red;
+}
+
+.error{
+    border-color: red;
+}
+
+.error svg{
+    color: red;
+}

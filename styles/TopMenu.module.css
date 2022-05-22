@@ -1,0 +1,179 @@
+.logo {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.logoBrand{
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 40px;
+    font-weight: 600;
+    color: #00a343;
+}
+
+.logo img {
+    margin: 0;
+    padding: 0;
+    width: 90px;
+    height: 60px;
+}
+
+
+.top__menu {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 1500px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.top__menu__col__search {
+    margin: 0;
+}
+
+.top__menu__search {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 650px;
+    height: 38px;
+    margin-top: 30px;
+    margin-left: 50px;
+    border-radius: 10px;
+    border: 1px solid #ad057f;
+    border-right: none;
+}
+
+.top__menu__search input {
+    width: 600px;
+    height: 34px;
+    border: none;
+    font-size: 18px;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+.top__menu__search input:focus {
+    outline: none;
+}
+
+.top__menu__search input::placeholder {
+    color: #f193d8;
+    font-family: 'Cuprum', sans-serif;
+}
+
+.search__btn {
+    width: 55px;
+    height: 38px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #750556;
+}
+
+.search__btn:hover {
+    background-color: #9b0871;
+}
+
+.search__btn svg {
+    width: 20px;
+    height: 20px;
+    color: white;
+    margin: 8px 10px 10px 18px;
+}
+
+.top__menu__col__nav {
+    width: 100%;
+
+}
+
+.top__menu__private__row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+
+.top__menu__public__row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+
+
+.top__menu__item {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 10px;
+    color: #ad057f;
+}
+
+.top__menu__item>p {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+    color: #ad057f;
+}
+
+.top__menu__item svg {
+    width: 40px;
+    height: 40px;
+    color: #ad057f;
+}
+
+.top__menu__item:hover svg {
+    color: #f007b8;
+}
+
+
+.top__menu__item:hover p {
+    color: #f007b8;
+}
+
+.user__box {
+    width: 120px;
+    height: 80px;
+    position: absolute;
+    background-color: white;
+    border: 1px solid black;
+    top: 100%;
+    left: 0%;
+    z-index: 10;
+}
+
+.user__box ul {
+    display: block;
+    margin: 5px 10px 10px 25px;
+}
+
+.user__box li {
+    line-height: 30px;
+}
+
+.user__box a {
+    font-size: 20px;
+    color: #ad057f;
+}
+
+.user__box a:hover {
+    color: #f007b8;
+}
+
+.icon__user svg {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+}
+
+.down__up__icon svg {
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+}

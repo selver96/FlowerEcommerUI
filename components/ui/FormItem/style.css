@@ -1,0 +1,245 @@
+.input__custom{
+    display: flex;
+    border-radius: 5px;
+    padding-left: 5px;
+    border: 1px solid #f8bfe9;
+}
+
+.input__custom svg {
+    color: #f8bfe9;
+}
+
+.input__custom:focus-within{
+    border-color: #bd2594;
+}
+
+.input__custom:focus-within svg{
+    color: #bd2594;
+}
+
+.input__custom input{
+    color: #f8bfe9;
+    border: none;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.input__custom input::placeholder{
+    color: #f8bfe9;
+    font-family: 'Cuprum', sans-serif;
+}
+
+.input__custom input:focus{
+    outline: none;
+    border-color: #e305a8;
+}
+
+.textarea__custom{
+    display: flex;
+    border-radius: 5px;
+    border: 1px solid #f8bfe9;
+    padding-left: 5px;
+}
+
+.textarea__custom:focus-within{
+    border-color: #bd2594;
+}
+
+.textarea__custom:focus-within svg{
+    color: #bd2594;
+}
+
+
+.textarea__custom textarea{
+    color: #f8bfe9;
+    border: none;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.textarea__custom svg{
+    color: #f8bfe9;
+}
+
+
+.textarea__custom textarea::placeholder{
+    color: #f8bfe9;
+    font-family: 'Cuprum', sans-serif;
+}
+
+.textarea__custom textarea:focus{
+    outline: none;
+    border-color: #e305a8;
+}
+
+.password__custom{
+    display: flex;
+    border-radius: 5px;
+    padding-left: 5px;
+    border: 1px solid #f8bfe9;
+}
+
+.password__custom svg{
+    color: #f8bfe9;
+}
+
+.password__custom:focus-within{
+    border-color: #bd2594;
+}
+
+.password__custom:focus-within svg{
+    color: #bd2594;
+}
+
+.password__custom input{
+    color: #f8bfe9;
+    border: none;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.password__custom input::placeholder{
+    color: #f8bfe9;
+    font-family: 'Cuprum', sans-serif;
+}
+
+.password__custom input:focus{
+    outline: none;
+    border-color: #e305a8;
+}
+
+.pass__eyes{
+    cursor: pointer;
+}
+
+.pass__eyes svg{
+    color: #750556;
+}
+
+
+.select__custom{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding-left: 5px;
+    border: 1px solid #f8bfe9;
+}
+
+.select__custom:focus-within{
+    border-color: #bd2594;
+}
+
+.select__custom__input{
+    display: flex;
+    flex-direction: row;
+}
+
+.select__custom__input svg {
+    width: 20px;
+    height: 15px;
+    margin-right: 20px;
+}
+
+.select__custom__item p{
+    font-size: 20px;
+    text-align: left;
+}
+
+.select__custom__input input{
+    color: #f8bfe9;
+    border: none;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+
+.select__custom input::placeholder{
+    color: #f8bfe9;
+    font-family: 'Cuprum', sans-serif;
+}
+
+.select__custom input:focus{
+    outline: none;
+    border-color: #e305a8;
+}
+
+.select__custom__dropdown{
+    position: absolute;
+    top: 105%;
+    left: 0%;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    background-color: white;
+    border-color: #bd2594;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.select__custom__dropdown__item{
+    cursor: pointer;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+.select__custom__dropdown__item p{
+    width: 100%;
+    font-size: 18px;
+}
+
+.select__custom__dropdown__item:hover{
+    background-color: #bd2594;
+}
+
+.checkbox__custom{
+    position: relative;
+}
+
+.checkbox__custom label{
+    margin-left: 5px;
+}
+
+.checkbox__custom label, input{
+    cursor: pointer;
+}
+
+.dropdown__custom{
+    height: 100%;
+    border-radius: 5px;
+    border: 1px solid #f8bfe9;
+}
+
+
+.dropdown__custom:focus-within{
+    border-color: #bd2594;
+}
+
+.dropdown__custom select{
+    background-color: white;
+    color: #720554;
+    border: none;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.dropdown__custom option{
+    margin-top: 5px;
+}
+
+.dropdown__custom select:focus{
+    outline: none;
+    border-color: #e305a8;
+}
+
+.error-input{
+    font-size: 16px;
+    color: red;
+}
+
+.error{
+    border-color: red;
+}
+
+.error svg{
+    color: red;
+}
